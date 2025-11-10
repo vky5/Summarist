@@ -1,0 +1,106 @@
+# -------------------------------
+# Python / Environment
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.Python
+env/
+venv/
+myenv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+pip-wheel-metadata/
+wheels/
+share/python-wheels/
+.manifest
+.python-version
+
+# -------------------------------
+# IDE / Editor
+# -------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# -------------------------------
+# Logs / Cache
+# -------------------------------
+*.log
+logs/
+*.tmp
+*.temp
+.cache/
+__pycache__/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# -------------------------------
+# Environment / Secrets
+# -------------------------------
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.json
+
+# -------------------------------
+# LangChain / Vector Stores
+# -------------------------------
+chroma_db/
+pinecone_index/
+vector_store/
+faiss_index/
+tmp/
+
+# -------------------------------
+# Data / User uploads
+# -------------------------------
+data/sample_docs/
+uploads/
+user_docs/
+*.pdf
+*.txt
+
+# -------------------------------
+# OS Specific
+# -------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# -------------------------------
+# Node / Frontend (if using Next.js)
+# -------------------------------
+node_modules/
+.next/
+out/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -------------------------------
+# Misc
+# -------------------------------
+*.sqlite3
+*.db
